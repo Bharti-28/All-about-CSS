@@ -1,0 +1,45 @@
+body{
+   background-color: black;
+}
+
+/* Display */
+.parent{
+    background-color: aqua;
+}
+
+.child{
+    background-color: blueviolet;
+    padding: 10px;
+    /* display: block; block override to the span tag, so we can make inline tag to block */
+    margin: 30px;
+    /* display: inline; we can make block tag to inline using display: ; */
+    display: inline-block; /* when we have multiple value we can use inline block*/
+}
+
+/*Position*/
+.BigBox{
+    position: relative; /*it is relative to parent element it wont go outside of it*/
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.LilBox{
+    position: absolute; /* it means that we all responsible to give the position to the html page/browser
+    It tell browser/html page that we will give it position by our own so html have to give this position
+    and it cannot replace it 
+    By default it always go to top-left */
+    background-color: white;
+    width: 100px;
+    height: 100px;
+   
+    /*for getting bottom 
+     right: 0; /*for top left*/
+    /* left: 0; for left */
+    /* bottom: 0; specify bottom 0 */
+    
+    /*for getting center */
+    top: 50%;
+    left: 50%;
+}
+

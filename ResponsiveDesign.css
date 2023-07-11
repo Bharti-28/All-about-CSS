@@ -1,0 +1,45 @@
+/* Media Queries -
+
+It is something that resposnible for all devices like mob, laptop and desktop screen 
+It is accessible and compatible for all devices by using media queries for it which available for us in css
+
+Mob - green
+tablet - blue
+laptop - red
+pc - brown 
+
+* Rule - Mobile first approach 
+This is the one of the principle for make responsive website ,
+we have to build for mobile first design always
+
+Break Points for screens -
+mobile - dont need it is default
+tablet - 768px starts from 
+laptop - 1020px
+pc - 1400px 
+
+*/
+
+/*for mobile first approach as it is main body it will default */
+body{
+    background-color: green;
+}
+
+/*media is keyword in css call it with @ symbol*/
+@media (min-width: 768px){
+    body{ /*we have to change body color for tablet for that we will call body again */
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1020px){
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width: 1400px){
+    body{
+        background-color: orange;
+    }
+}

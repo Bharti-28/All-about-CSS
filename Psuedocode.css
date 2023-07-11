@@ -1,0 +1,42 @@
+/* Psuedo code */
+
+body{
+    padding: 50px; /* body is parent tag so we have to give padding to it of button and
+    button tag is below the body tag so */
+}
+
+button{
+    background-color: green;
+    border: 2px solid green;
+    color: white; /*color of the font */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px; /* curve/edges of the border */
+    padding: 10px;
+}
+
+
+/* Psuedo code/class - it will add Micro Interaction based on the event/function we provide  */
+
+/*It is button indications, It is convey somehow that button is being clicked */
+
+/* Hover 
+when u move top of the element is known as hovering */
+
+button:hover{
+    background-color: red; /*so whenever we get cursor over element it will change color*/
+}
+
+/* Focus*/
+button:focus{
+    background-color: black;
+    /*when u click that element focus will ne trigger until u are not cliking/interact the focus will not 
+    trigger/turn into event*/
+}
+
+/*Disabled 
+this frequently used in button and inputs tag */
+button:disabled{
+    cursor: not-allowed;
+    opacity: 0.3;
+}

@@ -1,0 +1,65 @@
+body{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace; /*body is parent of everything so change the font stle 
+    from it it will be better*/
+    width: 100%;
+}
+
+h1{
+    color: white;
+}
+
+input{
+    width: 100%;  /* % will calculate the size width of the screen and specify the given width by us */
+    /* height:   we cannot use height here for that we have to use padding 
+    height isnt support here*/
+}
+
+button{
+    border: 2px /*solid*/ dotted black; /* px pixcels are like small boxes on the screen  which calculate
+    size by per boxes on the screen and given the element by us */
+}
+
+/* Selectors class, id and name
+class = class it is name we provide to something and which we use to reuse 
+id = id are always uniqe 
+name = name is something we provide name and we cannot use it multiple times it has limit to use */
+
+
+/* . it is formula to access class in css*/
+.amazing{      
+    font-size: 40px;   
+    color: white;
+}
+
+.short{
+    font-size: 30px;
+    color: red;
+}
+
+/* # it is formula to access id in css*/
+p{
+    font-size: 3px;
+}
+
+#hey{   
+    font-size: 30px;
+}
+
+
+/* formula for inputs 
+
+input[type="type"] 
+
+it is formula to access inputs in css
+*/
+input[type="text"]{
+    width: 100%;
+}
+
+input[type="password"]{
+    width: 50px;
+}
+
+/* Positions 
+Display */

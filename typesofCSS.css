@@ -1,0 +1,12 @@
+/*we have three types of way or approach of use CSS
+
+External CSS-  Use diffrent file for css code and import it in main html file
+or link it in html file with link tag it is known as external css
+
+Internal CSS- to provide internal css you have another tag in html which is style which
+goes inside head tag <style> </style> and u can apply all your css style in this
+style tag 
+it is like we providing our css style using style tag in html code itself
+
+Inline CSS -  You can give the style directly to html tags individualy
+*/

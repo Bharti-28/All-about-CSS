@@ -1,0 +1,23 @@
+/*Box Model
+Padding - Contents which have space with them/itself for looking more better called padding
+If u increase the padding content size will decrease 
+
+Margin - and outer space of contents and on page called margin
+If u increase the margin content wont affect it is just pushing all contents far away*/
+
+.parent{
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    padding: 30px; /*parent provide all the padding/ gap between content and other content on page using 
+    padding to the parent not to the child*/
+
+    margin: 50px; /*we have space all around content/the page using margin */
+}
+
+.content{
+    background-color: burlywood;
+    width: 300px;
+    height: 300px;
+}

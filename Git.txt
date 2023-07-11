@@ -1,0 +1,102 @@
+Git -
+
+Git is important to use as any developer, It is gives u flexibility and availability to use or upload your 
+code an get access of code everywhere as we want.
+
+Git is essintially version control system -
+version represents updation of features any other new items and increase no.s of update called version 
+if appraently version get crashed or there is bug and we have to make immediate action that time there will
+be help of git. Its meand you can have control on every single version of application. If you
+want to switch version that time you can switch it immediately within one or 2 min well have that
+version ready with the help of the git.
+
+* Why Git?
+because it is -
+1. Distributed - anybody can access git- install - internet connection - ready to use 
+
+2. Collaboration - u can work on team using git or on git, you can also update on you different projects and 
+then you can merge it on one platform like git 
+
+3. tracking changes - you can track all the changes like who changes, what was the track of change, compare code
+to previous change, comment on it, ask developer to work on that particular port you can do every single thing 
+with git
+
+4. Recovery - you can switch with different changes and different versions instantly that 
+you can recover you disaster/ crashed 
+
+5. Automation - it is new thing, released recently, known as github actions. Git doesnt support Automation
+but you can do Automation with git tools like git tools - git lab, github
+
+* Git and Github -
+
+* Git and Github are totally different they are not same. Git is essentially concept and Github it is 
+service provided by people or company that uses git in background, whatever ouput they get from git they will show 
+it in visual format that is what they doing.
+
+*Basically git is comand line tool, it doesnt provide you like any visualisation. Github company what they do is use git 
+tools to get outputs in comand line format and covert it in visualisation format
+
+*Git tools -
+Github 
+Gitlab
+BitBucket
+Above all are tools of git which provides the all fucntionality of git as Distributed Collaboration
+Automation tracking change and Recovery and as well as version control 
+only different is they are from different companies and has own set of features build upon them and
+uses same syntax and version control system and they all use git in background
+
+*Git Command -
+You runs command only ones while setting up you project, if you run again then it will intialise your project 
+again and it will create your new repository so do not do that .
+
+1. git init - intialise your repository(it is codebase or set of folders) for the first time
+
+2. git add . - add you modified files in your new repository or it will marked files to upload it on github 
+repository, we called this marking files staging as we staging all this modified files, it means preparing to 
+upload
+
+3. git commit -m "message" - to add message or give label to modified file or provides message that would 
+reprent to your changes
+
+4. git push origin master - push your code/ changes to your repository or to your master(main branch) where 
+code will be stable
+
+
+whats on Github ?
+*Issues - in github we can tell them thier code issue here 
+
+*Pull Requests PR - it is solutions for that issues 
+
+*Actions - provides Automation deployment or testing
+
+*project - roadmap of project what is to be done or pending
+
+*wiki - is like documentation 
+
+*insights - all issues, prs, commits
+
+*fork - copy thier projects in our accounts, You can also make it private and provide access to only your team 
+members and then only then can access your pr and issues
+
+*Install Git -
+go to git official page and download -> 
+check it is installed or not type -> git 
+-> and it will give all updates of git
+-> installing git in our application ->
+make repository -> and then install it in your project saperately
+
+Means on terminal you can setup your project on github using git commands -
+
+*For first time setup -> 
+
+git init -> only once at time of project setup.
+git add . -> add/stage all your changes
+git remote add <url> -> only once at time of project setup.
+git commit -m "message" -> its message of changes
+git push origin master -> to upload/push your changes 
+
+Rest of the time ->
+
+git add . -> add/stage all your changes
+git commit -m "message" -> its message of changes
+git push origin master -> to upload/push your changes 
